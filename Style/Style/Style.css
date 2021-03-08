@@ -1,0 +1,484 @@
+body {font-family: Arial, Helvetica, sans-serif;
+  background-color:#ffdb4d;}
+  
+* {box-sizing: border-box;}
+
+
+/*Color Scheme
+yellow - #ffe680
+orange - #ffa64d
+red - #ff5c33
+maroon - #990000
+black - #1a0000 */
+
+.title{
+  margin-top:50px;
+  font-size:70px;
+  font:helvetica;
+}
+
+.title2{
+  margin-top:50px;
+  font-size:70px;
+  font:helvetica;
+}
+
+.loginform {
+  left: 0;
+  top: 0;
+  margin:auto;
+  width:50%;
+  height:50%;
+  border-radius:20px;
+  overflow: auto; /* Enable scroll if needed */
+  background-color:#ff5c33;
+  padding-top: 35px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom:35px;
+  background-image: linear-gradient(to top, red,orange);
+}
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border-radius:20px;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 16px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+  transition:3s;
+  background-color:black;
+}
+
+/* Extra styles for the cancel button */
+.signupbtn {
+  padding: 10px 16px;
+  background-color: #4CAF50;
+  margin-left:2px;
+}
+.cancelbtn {
+  display:block;
+  padding: 10px 16px;
+  background-color: #4CAF50;
+  margin-left:2px;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.signupbtn, .loginbtn, .cancelbtn {
+  float: left;
+  width: 49%;
+}
+.loginbtn {
+  float: right;
+  width: 49%;
+}
+
+
+/* Add padding to container elements */
+.container {
+  background-image: linear-gradient(to top, rgba(243, 109, 0, 0.842),orange);
+  padding: 16px;
+  border-radius:20px;
+  border:20px black;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color:#ffe680;/*causes the background behind white form to turn yellow*/
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  padding-top: 10px;
+  margin-bottom:10px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 20px ;
+  width: 60%; /* Could be more or less, depending on screen size */
+  border-radius:20px;
+}
+  
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 200px;
+  top: 40px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+  z-index:999;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*This section is for the upload button*/
+#custom-button {
+  padding: 10px 16px;
+  color: white;
+  background-color:#4CAF50;
+  border-radius:1px;
+  cursor: pointer;
+  width:50%;
+}
+
+#custom-button:hover {
+  background-color:black;
+}
+
+#custom-text {
+  margin-left: 10px;
+  font-family: sans-serif;
+  color: #aaa;
+}
+
+
+
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+
+.con1{
+height:50%;
+width:90%;
+margin-top:100px;
+margin-right: auto;
+margin-left: auto;
+background-color:black;
+border-radius:0px;
+overflow: auto; /* Enable scroll if needed */
+padding-top: 35px;
+padding-left:20px;
+padding-right:20px;
+padding-bottom:35px;
+background-image: linear-gradient(to top, red,orange);
+}
+.con6{
+  height:50%;
+  width:90%;
+  margin-top:10px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color:black;
+  border-radius:0px;
+  display:flex;
+  padding-top: 35px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom:35px;
+  background-image: linear-gradient(to top, red,orange);
+  }
+
+.con2{
+float:left;
+height:70%;
+width:26%;
+background-color:black;
+overflow: auto; /* Enable scroll if needed */
+padding-top: 150px;
+padding-bottom:70px;
+}
+
+.con3{
+float:left;
+height:70%;
+width:38%;
+background-color:black;
+overflow: auto; /* Enable scroll if needed */
+margin-left:20px;
+padding-top: 30px;
+padding-bottom:50px;
+}
+.recipenamecon{
+  float:left;
+  height:70%;
+  width:65%;
+  margin-bottom:3px;
+  background-color:white;
+  overflow: auto; /* Enable scroll if needed */
+  padding-top: 20px;
+  padding-bottom:20px;
+}
+.descriptioncon{
+float:left;
+height:70%;
+width:90%;
+margin-bottom:-20px;
+background-color:purple;
+overflow: auto; /* Enable scroll if needed */
+margin-top:10px;
+
+padding-top: 30px;
+padding-bottom:50px;
+}
+
+.con4{
+float:left;
+height:70%;
+width:51%;
+margin-bottom:-43px;
+margin-right:50px;
+background-color:blue;
+overflow: auto; /* Enable scroll if needed */
+margin-top:30px;
+padding-top: 20px;
+padding-bottom:20px;
+}
+
+.con5{
+float:left;
+height:20%;
+width:90%;
+margin-right:50px;
+background-color:pink;
+overflow: auto; /* Enable scroll if needed */
+margin-top:20px;
+margin-bottom:-16px;
+padding-top: 20px;
+padding-bottom:20px;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  margin-left:26px;
+  background-color: transparent;
+  width: 150px;
+  height: 150px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/*Starting of Chef CRUD Page*/
+.ChefCRUD1{
+  display:flex;
+  width:80%;
+  height:50%;
+  background-color:white;
+  padding-top:20px;
+  padding-bottom:70px;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.subcon1{
+  background-color:white ;
+  width:40%;
+}
+.subcon2{
+  width:60%;
+  background-color:white ;
+  
+}
+
+button[type=editbtn]{
+  padding:12px 20px;
+  width:100%;
+  border-radius:20px;
+  float:right;
+}
+
+table,td,tr,th {
+  border:2px solid black;
+  color:black;
+}
+
+table{
+height:100%;
+}
+
+
+select{
+  overflow: auto;
+  height:37px;
+  width:100%;
+}
+
+.ChefCRUD2{
+  
+  width:80%;
+  height:50%;
+  margin:auto;
+  margin-top:20px;
+  background-color:white;
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.ChefCRUD2 th {
+  width:49%;
+}
+
+.buttonctn{
+  padding-top:20px;
+  display:flex;
+  width:50%;
+  margin:auto;
+}
+
+.ChefCRUD2 button {
+border-radius:20px;
+}
+
+#dbtn {
+  margin-left:20px;
+}
+
+
+/*Ending of Chef CRUD Page*/
+
+/*Admin Homepage Design*/
+
+#AdminH {
+
+	width:90%;
+	height:1100px;
+	margin-bottom:70px;
+	background-color:white;
+  margin:auto;
+	padding-top:80px;
+	border-radius:40px;
+	margin-top:50px;
+}
+
+#AdminIn {
+	/*background-image:url(image/darkmarble.jpg);*/
+	background-color:skyblue;
+	width:90%;
+	height:50%;
+	border-radius:40px;
+	padding-bottom:50px;
+	padding-top:40px;
+
+}
+
+#AdminIn img {
+}
+
+#AdminIn h1 {
+	margin-top:70px;
+	color:white;
+	font-size:70px;
+}
+
+#AdminIn h2 {
+	color:white;
+	font-size:30px;
+	margin-bottom:50px;
+	
+}
+
+#AdminIn a {
+	
+	text-decoration:none;
+}
+
+#AdminIn input[type=button]:hover {
+	background-color:blue;
+	transition:3s;
+}
+
+#AdminIn input[type=button] {
+	color:white;
+	
+	padding:12px 20px;
+	background-color:orange;
+	border:0px;
+	border-radius:20px;
+	margin:auto;
+	align-items:center;
+}
+/**Admin Homepage Design end/
+
+

@@ -1,0 +1,86 @@
+.module{
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+    position: relative;
+    float: left;
+    background-color: white;
+    border: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    box-shadow: 5px 5px black;
+    
+}
+
+body{
+    background-color: #fffad6;
+}
+
+h1{
+    
+    font-family: 'Merriweather', serif;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+}
+
+.module img{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 80px;
+}
+
+.module a{
+    text-decoration: none;
+}
+
+.module:hover{
+    border-color:orange; 
+    color: red;
+}
+
+.module h1{
+    font-size: 24px;
+    position: relative;
+    top: 100px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.centerbody{
+    width: 1400px;
+    height: auto;
+    position: relative;
+    margin: 40px 40px 40px 40px;
+    left: 200px;
+    top: 100px;
+}
+
+.cheftitle{
+    position: relative;
+    top: 70px;
+    color: orangered;
+    text-shadow: 0px 0px 2px #ffb378;
+    font-size: 40px;
+}
+
+.title{
+    position: relative;
+    top: 70px;
+    font-size: 50px;
+}
+
+.logoutBtn{
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: #8f0c00;
+    box-shadow: 2px 2px black;
+    border: 0;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+}

@@ -1,0 +1,315 @@
+body{
+    background-color: #f0f0f0;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-family: 'Merriweather', serif;
+    font-size: 45px;
+    position: relative;
+    left: 80px;
+    top: 20px;
+    color: #bd1717;
+    text-shadow: 1px 2px 1px #000000;
+}
+
+h2{
+    font-family: 'Merriweather', serif;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffa500;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    
+
+}
+
+li {
+    float: right;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif; 
+    font-size: 20px;
+}
+
+li a:hover{
+    height: 70px;
+    background-color: #d48900;
+}
+.nav-bar{
+    /*margin: 20px auto;*/
+    border: none;
+    font-size: 16px;
+    
+}
+
+
+
+.nav-bar .searchbar input{
+    height: 40px;
+    width: 25%;
+    position: absolute;
+    left: 30%;
+    top: 20px;
+    z-index: 1;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+
+
+.selectionsrch .searchbar input{
+    border-radius:50px;
+    font-family: 'Raleway', sans-serif;
+    margin: 20px 0 20px 0;
+    height: 60px;
+    width: 40%;
+    border: 1;
+
+    
+}
+
+.selectionsrch .searchbar button{
+    height: 60px;
+    width: 60px;
+    border: 0;
+    border-radius: 200px;
+    background-color: grey;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.nav-bar .searchbar button{
+    height: 40px;
+    position: absolute;
+    left: 56%;
+    top: 22px;
+    z-index: 1;
+    border: 0;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.userbody .rotd {
+    position: relative;
+    top: 30px;
+    display: flex;
+    height: 600px;
+    background-color: #3d3520;
+    border-radius: 12px;
+}
+
+.userbody .rotd img{
+    height: 400px;
+    width: 600px;
+    position: relative;
+    top: 20px;
+    left: 80px;
+    box-shadow: 10px 10px black;
+}
+
+.userbody .rotd h1{
+    font-family: 'Merriweather', serif;
+    font-size: 45px;
+    position: relative;
+    left: 80px;
+    color: orange;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.userbody .rotd .leftcol{
+    width: 50%;
+    
+}
+
+.userbody .rotd .rightcol{
+    width: 50%;
+    float: right;
+    position: relative;
+    margin-top: 120px;
+    right: 50px;
+}
+
+.gotorecipe{
+    border: 0;
+    height: 50px;
+    width: 120px;
+    border-radius: 30px;
+    background-color: #d2691e;
+    color: white;
+}
+.gotorecipe:hover{
+    background-color: #ab5416;
+    color: grey;
+}
+
+.leftcol h2{
+    color: orange;
+    text-shadow: 2px 2px #000000;
+
+}
+
+.leftcol p{
+    color: black;
+}
+
+
+
+.rightcol h2{
+    color: orange;
+    text-shadow: 2px 2px #000000;
+
+}
+
+.rightcol p{
+    color: black;
+}
+
+.selectionbody {
+    width: 100%;
+    height: 75%;
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+
+.selectionbody .leftcol{
+    width: 50%;
+    height: 100%;
+    margin-bottom: 60px;
+    float: left;
+}
+
+.selectionbody .rightcol{
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+}
+
+.selectionbody .leftcol .recipebox{
+    width: 80%;
+    height: 300px;
+    position: relative;
+    word-break: break-word;
+    overflow: hidden;
+    float: left;
+    box-shadow: 2px 5px 10px #888888;
+}
+
+
+.selectionbody .rightcol .recipebox{
+    width: 80%;
+    height: 300px;
+    position: relative;
+    word-break: break-word;
+    overflow: hidden;
+    float: left;
+    box-shadow: 2px 5px 10px #888888;
+}
+
+.selectionbody .leftcol .recipebox img{
+    width: 300px;
+    height: 200px;
+    
+    left: 10px;
+    float: left;
+    position: relative;
+}
+
+.selectionbody .rightcol .recipebox img{
+    width: 300px;
+    height: 200px;
+    
+    left: 10px;
+    float: left;
+    position: relative;
+}
+
+
+.recipebox{
+    margin-top: 40px;
+}
+
+.recipebox h3{
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    position: relative;
+    left: 15px;
+    bottom: 20px;
+}
+
+.recipedesc{
+    width: 30%;
+    height: 80%;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    left: 20px;
+}
+
+.recipebox h2{
+    position: relative;
+    float: left;
+    left: 20px;
+    width: 100px;
+    height: 50px;
+}
+
+.rotdright{
+    width: 50%;
+    float: right;
+    position: relative;
+    margin-top: 120px;
+    right: 50px;
+}
+
+.rotdright h2{
+    color: orange;
+    text-shadow: 2px 2px #000000;
+
+}
+
+.rotdright p{
+    color: white;
+
+}
+
+
+.logo img{
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+
+}
+

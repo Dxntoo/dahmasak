@@ -1,0 +1,69 @@
+Vending Machine
+
+Main.
+
+Drinks
+
+Components
+
+Interface,Main (Machine Class)
+*********
+-Menu(Shows Product and if it is available or not?)
+-Drink Selection
+-Drink Dispenser
+-On/Off Switch
+-Exit
+
+Inventory (Drinks Class)
+*********
+-Drinks(limit to 10 types of drinks)
+-Stock(Limit to 10 quantity of each drink)
+-Manager able to upload new drinks?
+
+
+Components (Coin Checker Class)
+**********
+-Insert Money port 
+-Dispense Balance 
+-Money Checker
+
+
+*******************************************************************************************************************************************
+
+Flow of actions
+***************
+
+User is shown Menu
+
+User can only choose drink that is available
+
+User Chooses a drink
+
+Machine Asks for confirmation on decision
+
+User enters Yes/No
+
+Machine will prompt for money if Yes, exits if No
+
+User Enters Money
+
+Money Checker checks if enough? Dispenses drink if yes, prompt for more if no.
+
+User presses exit Button if is done with purchase, machine will dispense money balance if any.\
+
+1. Restart Machine
+
+2. Before While(true), add admin
+
+3.
+
+
+
+
+
+
+
+Slides
+******
+
+

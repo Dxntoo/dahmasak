@@ -1,0 +1,136 @@
+* {
+    box-sizing:border-box;
+  }
+  th {
+
+    font-family: 'Merriweather', serif;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .container {
+    padding: 64px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both
+  }
+  
+  .column-66 {
+    float: left;
+    width: 66.66666%;
+    padding: 20px;
+  }
+  
+  .column-33 {
+    float: left;
+    width: 33.33333%;
+    padding: 20px;
+    position: relative;
+    top:30px;
+  }
+  
+  .large-font {
+    font-size: 48px;
+  }
+  
+  .xlarge-font {
+    font-size: 64px
+  }
+  
+  .button {
+    float:left;
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    border-radius: 30px;
+    margin-right:50px;
+  }
+
+  .drkbutton {
+    border: none;
+    color: orange;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    border-radius: 30px;
+  }
+  
+  img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+
+  /* !!Recipe Cards!! */
+
+  .column1 {
+    height: 40px;
+    width: 100%;
+    padding: 0 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display:flex;
+    }
+    
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width:50%;
+    height:100%;
+    margin-right: 50px;
+  }
+
+  .card2 {
+    transition: 0.3s;
+    color: aliceblue;
+    width: 40%;
+    
+    
+}
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+
+  }
+
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    }
+
+
+
+/* dark MODE!! */
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .column-66,
+    .column-33 {
+      
+      width: 100%;
+      text-align: center;
+    }
+    img {
+      margin: auto;
+      margin-bottom:20px;
+    }
+  }
